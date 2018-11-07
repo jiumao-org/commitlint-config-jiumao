@@ -2,6 +2,10 @@
   "name": "@jiumao/commitlint-config",
   "version": "0.0.1",
   "description": "JiuMao前端团队CommitLint配置",
+  "keywords": [
+    "commitlint",
+    "commitlint-config"
+  ],
   "main": "index.js",
   "files": [
     "index.js",
