@@ -3,7 +3,20 @@
   "version": "0.0.1",
   "description": "JiuMao前端团队CommitLint配置",
   "main": "index.js",
+  "scripts": {
+    "bootstrap": "yarn || npm i",
+    "commitmsg": "commitlint -E HUSKY_GIT_PARAMS"
+  },
   "repository": "https://github.com/jiumao-fe/commitlint-config-jiumao.git",
   "author": "wangxingkang <wangxingkang@sensoro.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "commit-msg": "npm run commitmsg"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.2.1",
+    "husky": "^1.1.3"
+  }
 }
