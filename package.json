@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "JiuMao前端团队CommitLint配置",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "scripts": {
     "bootstrap": "yarn || npm i",
     "commitmsg": "commitlint -E HUSKY_GIT_PARAMS"
