@@ -7,6 +7,37 @@
 
 > JiuMao前端团队 CommitLint 配置
 
+# Usage
+
+1. 安装commitlint
+
+```
+yarn add -D @commitlint/cli husky
+```
+
+2. 项目添加`commitlint.config.js`配置文件
+
+```
+const rules = require('@jiumao/commitlint-config');
+
+module.exports = {
+  rules
+};
+```
+
+3. package.json添加如下代码
+
+```
+"scripts": {
+  "commitmsg": "commitlint -E HUSKY_GIT_PARAMS"
+},
+"husky": {
+  "hooks": {
+    "commit-msg": "npm run commitmsg"
+  }
+}
+```
+
 # Git commit规范
 
 提交格式如下
