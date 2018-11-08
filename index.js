@@ -23,11 +23,20 @@ module.exports = {
   // <subject> 以.为结束标志
   'subject-full-stop': [2, 'never', '.'],
   // <subject> 格式
+  // 可选值
+  // 'lower-case' 小写 lowercase
+  // 'upper-case' 大写 UPPERCASE
+  // 'camel-case' 小驼峰 camelCase
+  // 'kebab-case' 短横线 kebab-case
+  // 'pascal-case' 大驼峰 PascalCase
+  // 'sentence-case' 首字母大写 Sentence case
+  // 'snake-case' 下划线 snake_case
+  // 'start-case' 所有首字母大写 start-case
   'subject-case': [2, 'never',
     [
       'sentence-case',
       'start-case',
-      'pascal-case',
+      // 'pascal-case',
       'upper-case'
     ]
   ],
