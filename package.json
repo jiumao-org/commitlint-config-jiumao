@@ -1,6 +1,6 @@
 {
   "name": "@jiumao/commitlint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JiuMao前端团队CommitLint配置",
   "keywords": [
     "commitlint",
