@@ -19,7 +19,7 @@ yarn add -D @commitlint/cli husky
 2. 项目添加`commitlint.config.js`配置文件
 
 ```
-const rules = require('@jiumao/commitlint-config');
+const { rules } = require('@jiumao/commitlint-config');
 
 module.exports = {
   rules

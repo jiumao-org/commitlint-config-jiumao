@@ -1,4 +1,4 @@
-const rules = require('./index');
+const { rules } = require('./index');
 
 module.exports = {
   rules
