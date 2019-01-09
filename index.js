@@ -35,10 +35,8 @@ module.exports = {
     // 'start-case' 所有首字母大写 start-case
     'subject-case': [2, 'never',
       [
-        'sentence-case',
         'start-case',
-        // 'pascal-case',
-        'upper-case'
+        'snake-case'
       ]
     ],
     // <body> 以空行开头
