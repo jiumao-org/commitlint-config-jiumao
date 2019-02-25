@@ -33,12 +33,7 @@ module.exports = {
     // 'sentence-case' 首字母大写 Sentence case
     // 'snake-case' 下划线 snake_case
     // 'start-case' 所有首字母大写 start-case
-    'subject-case': [2, 'never',
-      [
-        'snake-case',
-        'kebab-case'
-      ]
-    ],
+    'subject-case': [2, 'never', []],
     // <body> 以空行开头
     'body-leading-blank': [1, 'always'],
     // <footer> 以空行开头
